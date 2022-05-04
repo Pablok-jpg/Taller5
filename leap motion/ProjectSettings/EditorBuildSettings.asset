@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/hands pri.unity
+    guid: 1134a6d9f3ae3154f834cf5398f646b3
+  - enabled: 1
+    path: Assets/Scenes/mexico.unity
+    guid: 6e1f98d7a95ece84e85c6246d15cb801
+  - enabled: 1
+    path: Assets/Scenes/centro.unity
+    guid: 28c177f88eb51db46a867df84a740f4c
+  - enabled: 1
+    path: Assets/Scenes/sur.unity
+    guid: 11e2e0c3f8081e14b881b0a533637a57
+  m_configObjects: {}
