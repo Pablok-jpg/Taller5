@@ -8,6 +8,9 @@ TagManager:
   - Centro
   - Sur
   - fogata
+  - VestuarioM
+  - LetraM
+  - instruM
   layers:
   - Default
   - TransparentFX

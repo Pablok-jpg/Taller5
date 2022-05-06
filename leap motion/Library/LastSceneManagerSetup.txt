@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/hands pri.unity
+- path: Assets/Scenes/mexico.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

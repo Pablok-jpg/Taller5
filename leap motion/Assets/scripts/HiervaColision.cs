@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class HiervaColision : MonoBehaviour
 {
+    [SerializeField] ParticleSystem particula;
     public int mexicoEsen;
     public int CentroEsen;
     public int SurEsen;
@@ -25,7 +26,7 @@ public class HiervaColision : MonoBehaviour
     {
         if (collision.gameObject.tag=="mexico")
         {
-            fogata.localScale = new Vector3(fogata.localScale.x, 2, fogata.localScale.z);
+            
             Invoke(nameof(CambiarEscena_Mexico), tem);
             luz.enabled = true;
 

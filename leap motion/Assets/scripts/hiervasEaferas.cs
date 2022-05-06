@@ -7,9 +7,7 @@ public class hiervasEaferas : MonoBehaviour
 {
     public float speed;
     public Transform posicion;
-    bool bandera = false;
 
-    UnityEvent pelota_cae;
     Vector3 direccion;
     Rigidbody rb;
 
