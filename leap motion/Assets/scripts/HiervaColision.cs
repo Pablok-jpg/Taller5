@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class HiervaColision : MonoBehaviour
 {
-    [SerializeField] ParticleSystem particula;
+    
     public int mexicoEsen;
     public int CentroEsen;
     public int SurEsen;

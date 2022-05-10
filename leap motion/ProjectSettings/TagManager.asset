@@ -11,6 +11,7 @@ TagManager:
   - VestuarioM
   - LetraM
   - instruM
+  - muro
   layers:
   - Default
   - TransparentFX

@@ -44,12 +44,27 @@ public class hiervasEaferas : MonoBehaviour
 
         }
 
-        
+        if (collision.gameObject.tag == "muro")
+        {
+            if(gameObject.tag== "mexico")
+            {
+                
+                transform.position = new Vector3(0, 0.126f, 0.1f);
+            }
+            else if(gameObject.tag == "Sur") 
+            {
+                transform.position = new Vector3(-0.213f, 0.126f, 0.1f);
+            }
+            else if (gameObject.tag == "Centro")
+            {
+                transform.position = new Vector3(0.204f, 0.126f, 0.1f);
+            }
+
+        }
+
+
     }
-    public void OnCollisionExit(Collision collision)
-    {
-        print(collision.gameObject.name);
-    }
+   
 
 }
 
